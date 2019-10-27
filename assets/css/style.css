@@ -26,8 +26,9 @@ html {
   #title {
       color:#fff;
       text-align:center;
-      font-family: 'Pacifico', cursive;
+      font-family: 'Staatliches', cursive;
       padding-top:16px;
+      font-size: 55px;
   }
   
   #buttonArea{
