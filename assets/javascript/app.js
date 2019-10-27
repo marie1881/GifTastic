@@ -1,5 +1,5 @@
 // GIFTASTIC! 
-var topics = ["Suits", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Powdered Toast Man", "Transformers", "Yogi Bear", "Homer Simpson", "Family Guy", "South Park", "Scooby-Doo", "Adventure Time"];
+var topics = ["Suits", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", "Avatar the Last Airbender", "The Walking Dead", "The Wire", "Scooby-Doo", "Adventure Time"];
 
 var button;
 var newTopic = ""; // new topic that will be added via the input field 
@@ -19,7 +19,7 @@ var buttonGenerator = function (){
 // The user clicks on a generated orange button, which generates 10 static, non-animated gif images from the GIPHY API and places them on the page. 
 $("#buttonArea").on("click", ".btn", function(){
   		var thing = $(this).attr("data");
-  		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thing + "&api_key=dc6zaTOxFJmzC&limit=10";
+  		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thing + "&api_key=0Vym1lvxuLRhH1BjPXrVEOn9IF1cXfXQ&limit=14";
 
 
 
