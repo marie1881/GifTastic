@@ -1,5 +1,5 @@
 // GIFTASTIC! 
-var topics = ["Suits", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", "Avatar the Last Airbender", "The Walking Dead", "The Wire", "Game of Thrones", "Rick and Morty"];
+var topics = ["Suits", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", "Avatar the Last Airbender", "13 Reasons Why", "Game of Thrones", "Rick and Morty"];
 
 var button;
 var newTopic = ""; // new topic that will be added via the input field 
@@ -42,7 +42,7 @@ $("#buttonArea").on("click", ".btn", function(){
 	 			var p = $("<p>").text("Rating: " + results[i].rating);
 
 	 			// add a CSS style to create colored borders around the gifs
-	 			var topicImage = $("<img>").addClass("orangeBorder");
+	 			var topicImage = $("<img>").addClass("blueBorder");
 
 	 			// add states of animate and still which will be toggled 
 	 			topicImage.attr("src", results[i].images.fixed_height_still.url);

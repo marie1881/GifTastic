@@ -41,23 +41,46 @@ html {
   
   .btn {
       margin:3px;
+      border: 4px solid rgb(0, 238, 255);
+      text-align: center;
   }
 
-  button {
+  #topic-input {
+      color: white;
+  }
+
+  label {
+      color: white;
+      font-family: 'Staatliches', cursive;
+      font-size: 28px;
       
   }
+
+  img {
+      display: inline-block;
+    max-width: 450px;
+	max-height: 200px;
+  }
+
+p {
+    color: white;
+}
+
+.gif {
+	display: inline-block;
+}
   
   #gifArea {
       margin-top:20px;
   }
   
-  .orangeBorder {
+  .blueBorder {
       border-radius: 5px;
-      border: 2px solid orange;
+      border: 4px solid rgb(0, 238, 255);
   }
   
   .submit {
-      background-color: #262626;
+      background-color: #ffffff;
       color:white;
       border:1px solid #646464;
   }
@@ -72,9 +95,6 @@ html {
       background-color: black;
   }
   
-  .credits {
-      font-size: .8em;
-  }
   .clear {
       clear:both;
   }
