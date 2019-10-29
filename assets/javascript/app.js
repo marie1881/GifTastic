@@ -1,5 +1,5 @@
 // GIFTASTIC! 
-var topics = ["Avatar the Last Airbender", "Rick and Morty", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", , "13 Reasons Why", "Game of Thrones", "Suits"];
+var topics = ["Avatar the Last Airbender", "Rick and Morty", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", "13 Reasons Why", "Game of Thrones", "Suits"];
 
 var button;
 var newTopic = ""; // new topic that will be added via the input field 
