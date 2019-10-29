@@ -29,7 +29,9 @@ html {
       text-align:center;
       font-family: 'Staatliches', cursive;
       padding-top:16px;
-      font-size: 55px;
+      font-size: 68px;
+      -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
   }
   
   #buttonArea{
@@ -42,7 +44,7 @@ html {
   
   .btn {
       margin:3px;
-      border: 4px solid rgb(0, 238, 255);
+      border: 2px solid rgb(0, 238, 255);
       background: rgb(26, 25, 25);
       text-align: center;
       color: rgb(255, 255, 255);
@@ -55,6 +57,8 @@ html {
   #topic-input {
       color: white;
       background: black;
+      padding: 7px;
+      margin-bottom: 10px;
   }
 
   label {
@@ -67,17 +71,32 @@ html {
   }
 
   img {
-      display: inline-block;
+/*     
     max-width: 450px;
-	max-height: 200px;
+    max-height: 200px;
+    float: initial; */
   }
 
 p {
     color: white;
+    font-size: 26px;
+    -webkit-text-stroke-width: 0.8px;
+   -webkit-text-stroke-color: black;
+}
+
+h4 {
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .gif {
-	display: inline-block;
+	
+    max-width: 450px;
+    max-height: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 40px;
 }
   
   #gifArea {
@@ -90,9 +109,9 @@ p {
   }
   
   .submit {
-      background-color: #2b2b2b;
+      background-color: #181717;
       color:white;
-      border:1px solid #646464;
+      border:1px solid #74ecdc;
   }
   
   .footer {

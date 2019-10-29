@@ -1,5 +1,5 @@
 // GIFTASTIC! 
-var topics = ["Suits", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", "Avatar the Last Airbender", "13 Reasons Why", "Game of Thrones", "Rick and Morty"];
+var topics = ["Avatar the Last Airbender", "Rick and Morty", "The Punisher", "The 100", "The Simpsons", "That 70's Show", "Stranger Things", "Friends", "The Office", , "13 Reasons Why", "Game of Thrones", "Suits"];
 
 var button;
 var newTopic = ""; // new topic that will be added via the input field 
@@ -45,7 +45,8 @@ $("#buttonArea").on("click", ".btn", function(){
 	 			var topicImage = $("<img>").addClass("blueBorder");
 
 	 			// add states of animate and still which will be toggled 
-	 			topicImage.attr("src", results[i].images.fixed_height_still.url);
+                 topicImage.attr("src", results[i].images.fixed_height_still.url);
+                 topicImage.attr('title', "Rating: " + results[i].rating);
 	 			topicImage.attr("data-still", results[i].images.fixed_height_still.url);
 	 			topicImage.attr("data-animate", results[i].images.fixed_height.url)
 	 			topicImage.attr("data-state", "still")
@@ -54,7 +55,7 @@ $("#buttonArea").on("click", ".btn", function(){
 	 			// image is appended to the div
 	 			topicDiv.append(topicImage);
 	 			// rating is appended to the div below the gif
-	 			topicDiv.append(p); 			
+	 			// topicDiv.append(p); 			
 	 			// new images will be placed at the beginning (top) of the containing gif area
 	 			$("#gifArea").prepend(topicDiv);
  			}
