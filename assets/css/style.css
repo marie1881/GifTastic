@@ -1,5 +1,5 @@
   * {
-      background: url(../images/colour.jpg)no-repeat center center fixed;
+      background: url(../images/colour.jpg)no-repeat fixed;
 
   }
   
@@ -63,12 +63,6 @@
       
   }
 
-  img {
-/*     
-    max-width: 450px;
-    max-height: 200px;
-    float: initial; */
-  }
 
 p {
     color: white;
