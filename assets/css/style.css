@@ -4,7 +4,7 @@
   }
   
   body {
-      background: url();
+    
       /* Margin bottom by footer height */
         margin-bottom: 60px;
   }
@@ -22,7 +22,7 @@
       padding-top:16px;
       font-size: 68px;
       -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
   }
   
   #buttonArea{
