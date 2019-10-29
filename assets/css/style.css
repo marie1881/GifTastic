@@ -1,5 +1,5 @@
   * {
-      background: url(../images/colour.jpg);
+      background: url(../images/colour.jpg)no-repeat fixed;
 
   }
   
@@ -114,3 +114,13 @@ h4 {
   .clear {
       clear:both;
   }
+
+
+
+@media only screen and (max-width: 1200px) {
+    * { 
+        max-width: 1200px;
+        max-height: 1020px;
+    }
+  } 
+  
